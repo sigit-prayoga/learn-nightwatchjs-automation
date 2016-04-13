@@ -1,0 +1,45 @@
+21:32:29.351 INFO - Launching a standalone Selenium Server
+Setting system property webdriver.chrome.driver to bin/chromedriver
+21:32:29.397 INFO - Java: Oracle Corporation 25.31-b07
+21:32:29.397 INFO - OS: Mac OS X 10.11.4 x86_64
+21:32:29.411 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
+21:32:29.499 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+21:32:29.499 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+21:32:29.500 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+21:32:29.500 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+21:32:29.502 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+21:32:29.502 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+21:32:29.573 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+21:32:29.573 INFO - Selenium Server is up and running
+21:32:30.097 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=My Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+21:32:30.111 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=My Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver (v2.9.248307) on port 48537
+21:32:32.061 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=My Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+21:32:32.093 INFO - Executing: [get: http://amazon.com])
+21:32:36.845 INFO - Done: [get: http://amazon.com]
+21:32:36.860 INFO - Executing: [get title])
+21:32:36.885 INFO - Done: [get title]
+21:32:36.899 INFO - Executing: [find element: By.cssSelector: input[id=twotabsearchtextbox]])
+21:32:37.118 INFO - Done: [find element: By.cssSelector: input[id=twotabsearchtextbox]]
+21:32:37.126 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (ca7df3835fa53303c9e4715419de428a)] -> css selector: input[id=twotabsearchtextbox]]])
+21:32:37.180 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (ca7df3835fa53303c9e4715419de428a)] -> css selector: input[id=twotabsearchtextbox]]]
+21:32:37.189 INFO - Executing: [find element: By.cssSelector: input[class=nav-input]])
+21:32:37.213 INFO - Done: [find element: By.cssSelector: input[class=nav-input]]
+21:32:37.218 INFO - Executing: [is displayed: 1 [[ChromeDriver: chrome on MAC (ca7df3835fa53303c9e4715419de428a)] -> css selector: input[class=nav-input]]])
+21:32:37.280 INFO - Done: [is displayed: 1 [[ChromeDriver: chrome on MAC (ca7df3835fa53303c9e4715419de428a)] -> css selector: input[class=nav-input]]]
+21:32:37.288 INFO - Executing: [find element: By.cssSelector: input[id=twotabsearchtextbox]])
+21:32:37.397 INFO - Done: [find element: By.cssSelector: input[id=twotabsearchtextbox]]
+21:32:37.405 INFO - Executing: [send keys: 0 [[ChromeDriver: chrome on MAC (ca7df3835fa53303c9e4715419de428a)] -> css selector: input[id=twotabsearchtextbox]], [i, p, h, o, n, e,  , s, e]])
+21:32:37.714 INFO - Done: [send keys: 0 [[ChromeDriver: chrome on MAC (ca7df3835fa53303c9e4715419de428a)] -> css selector: input[id=twotabsearchtextbox]], [i, p, h, o, n, e,  , s, e]]
+21:32:38.730 INFO - Executing: [find elements: By.cssSelector: input[class=nav-input]])
+21:32:38.767 INFO - Done: [find elements: By.cssSelector: input[class=nav-input]]
+21:32:38.773 INFO - Executing: [is displayed: 1 [[ChromeDriver: chrome on MAC (ca7df3835fa53303c9e4715419de428a)] -> css selector: input[class=nav-input]]])
+21:32:38.787 INFO - Done: [is displayed: 1 [[ChromeDriver: chrome on MAC (ca7df3835fa53303c9e4715419de428a)] -> css selector: input[class=nav-input]]]
+21:32:38.793 INFO - Executing: [find element: By.cssSelector: input[class=nav-input]])
+21:32:38.875 INFO - Done: [find element: By.cssSelector: input[class=nav-input]]
+21:32:38.884 INFO - Executing: [click: 1 [[ChromeDriver: chrome on MAC (ca7df3835fa53303c9e4715419de428a)] -> css selector: input[class=nav-input]]])
+21:32:38.937 INFO - Done: [click: 1 [[ChromeDriver: chrome on MAC (ca7df3835fa53303c9e4715419de428a)] -> css selector: input[class=nav-input]]]
+21:32:38.945 INFO - Executing: [delete session: b07eeedf-9e4b-4f29-8e6b-27f167175eaf])
+21:32:39.096 INFO - Done: [delete session: b07eeedf-9e4b-4f29-8e6b-27f167175eaf]
